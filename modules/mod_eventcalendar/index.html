@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>jQuery Sortable With AJAX &amp; MYSQL</title>
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+
+<script type="text/javascript">
+  // When the document is ready set up our sortable with it's inherant function(s)
+  $(document).ready(function() {
+$('#footer').click(function() {                   
+     $('#content').fadeOut('fast');
+     $('#content').fadeIn(2000);
+     window.setTimeout(function(){
+        test(); //execute load function
+    },3000);
+   });
+});
+function test()
+{
+ alert('ss');
+}
+</script>
+</head>
+
+<body>
+<div id="content" style="display:none">
+ <div id="contact">ssss</div>
+ <div id="about">sssssssssssssssfffffffffffff</div>
+ <div id="main">fffvvvvvvvvvvvvvv</div>
+</div>
+<a href="#" id="footer"> ggggg</a>
+
+</body>
+</html>

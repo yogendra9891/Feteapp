@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="events" option="com_event_view_default_option">
+		<help
+			key = "_MENUS_MENU_ITEM_USER_PROFILE"
+		/>
+		<message>
+			<![CDATA[com_event_default_desc]]>
+		</message>
+	</layout>
+</metadata>
